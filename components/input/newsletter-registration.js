@@ -24,7 +24,7 @@ function NewsletterRegistration() {
             body: JSON.stringify({email: enteredEmail}),
             headers: {
                 'Content-type': 'application/json',
-            },
+            }
         })
             .then((response) => {
                 if (response.ok) {
